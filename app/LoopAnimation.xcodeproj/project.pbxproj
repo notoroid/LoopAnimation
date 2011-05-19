@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8727CD61138555E400E7036B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8727CD60138555E400E7036B /* UIKit.framework */; };
+		8727CD63138555E400E7036B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8727CD62138555E400E7036B /* Foundation.framework */; };
+		8727CD65138555E400E7036B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8727CD64138555E400E7036B /* CoreGraphics.framework */; };
+		8727CD6B138555E400E7036B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD69138555E400E7036B /* InfoPlist.strings */; };
+		8727CD6E138555E400E7036B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8727CD6D138555E400E7036B /* main.m */; };
+		8727CD71138555E400E7036B /* LoopAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8727CD70138555E400E7036B /* LoopAnimationAppDelegate.m */; };
+		8727CD74138555E400E7036B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD72138555E400E7036B /* MainWindow.xib */; };
+		8727CD77138555E400E7036B /* LoopAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8727CD76138555E400E7036B /* LoopAnimationViewController.m */; };
+		8727CD7A138555E400E7036B /* LoopAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD78138555E400E7036B /* LoopAnimationViewController.xib */; };
+		8727CD9A138558F400E7036B /* Noise01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD86138558F400E7036B /* Noise01.jpg */; };
+		8727CD9B138558F400E7036B /* Noise02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD87138558F400E7036B /* Noise02.jpg */; };
+		8727CD9C138558F400E7036B /* Noise03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD88138558F400E7036B /* Noise03.jpg */; };
+		8727CD9D138558F400E7036B /* Noise04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD89138558F400E7036B /* Noise04.jpg */; };
+		8727CD9E138558F400E7036B /* Noise05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD8A138558F400E7036B /* Noise05.jpg */; };
+		8727CD9F138558F400E7036B /* Noise06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD8B138558F400E7036B /* Noise06.jpg */; };
+		8727CDA0138558F400E7036B /* Noise07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD8C138558F400E7036B /* Noise07.jpg */; };
+		8727CDA1138558F400E7036B /* Noise09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD8D138558F400E7036B /* Noise09.jpg */; };
+		8727CDA2138558F400E7036B /* Noise10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD8E138558F400E7036B /* Noise10.jpg */; };
+		8727CDA3138558F400E7036B /* Noise11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD8F138558F400E7036B /* Noise11.jpg */; };
+		8727CDA4138558F400E7036B /* Noise12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD90138558F400E7036B /* Noise12.jpg */; };
+		8727CDA5138558F400E7036B /* Noise13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD91138558F400E7036B /* Noise13.jpg */; };
+		8727CDA6138558F400E7036B /* Noise14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD92138558F400E7036B /* Noise14.jpg */; };
+		8727CDA7138558F400E7036B /* Noise15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD93138558F400E7036B /* Noise15.jpg */; };
+		8727CDA8138558F400E7036B /* Noise16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD94138558F400E7036B /* Noise16.jpg */; };
+		8727CDA9138558F400E7036B /* Noise17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD95138558F400E7036B /* Noise17.jpg */; };
+		8727CDAA138558F400E7036B /* Noise19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD96138558F400E7036B /* Noise19.jpg */; };
+		8727CDAB138558F400E7036B /* Noise20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD97138558F400E7036B /* Noise20.jpg */; };
+		8727CDAC138558F400E7036B /* Noise21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD98138558F400E7036B /* Noise21.jpg */; };
+		8727CDAD138558F400E7036B /* Noise22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8727CD99138558F400E7036B /* Noise22.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8727CD5C138555E400E7036B /* LoopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8727CD60138555E400E7036B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8727CD62138555E400E7036B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8727CD64138555E400E7036B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8727CD68138555E400E7036B /* LoopAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoopAnimation-Info.plist"; sourceTree = "<group>"; };
+		8727CD6A138555E400E7036B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8727CD6C138555E400E7036B /* LoopAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoopAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		8727CD6D138555E400E7036B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8727CD6F138555E400E7036B /* LoopAnimationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoopAnimationAppDelegate.h; sourceTree = "<group>"; };
+		8727CD70138555E400E7036B /* LoopAnimationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoopAnimationAppDelegate.m; sourceTree = "<group>"; };
+		8727CD73138555E400E7036B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8727CD75138555E400E7036B /* LoopAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoopAnimationViewController.h; sourceTree = "<group>"; };
+		8727CD76138555E400E7036B /* LoopAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoopAnimationViewController.m; sourceTree = "<group>"; };
+		8727CD79138555E400E7036B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoopAnimationViewController.xib; sourceTree = "<group>"; };
+		8727CD86138558F400E7036B /* Noise01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise01.jpg; sourceTree = "<group>"; };
+		8727CD87138558F400E7036B /* Noise02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise02.jpg; sourceTree = "<group>"; };
+		8727CD88138558F400E7036B /* Noise03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise03.jpg; sourceTree = "<group>"; };
+		8727CD89138558F400E7036B /* Noise04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise04.jpg; sourceTree = "<group>"; };
+		8727CD8A138558F400E7036B /* Noise05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise05.jpg; sourceTree = "<group>"; };
+		8727CD8B138558F400E7036B /* Noise06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise06.jpg; sourceTree = "<group>"; };
+		8727CD8C138558F400E7036B /* Noise07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise07.jpg; sourceTree = "<group>"; };
+		8727CD8D138558F400E7036B /* Noise09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise09.jpg; sourceTree = "<group>"; };
+		8727CD8E138558F400E7036B /* Noise10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise10.jpg; sourceTree = "<group>"; };
+		8727CD8F138558F400E7036B /* Noise11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise11.jpg; sourceTree = "<group>"; };
+		8727CD90138558F400E7036B /* Noise12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise12.jpg; sourceTree = "<group>"; };
+		8727CD91138558F400E7036B /* Noise13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise13.jpg; sourceTree = "<group>"; };
+		8727CD92138558F400E7036B /* Noise14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise14.jpg; sourceTree = "<group>"; };
+		8727CD93138558F400E7036B /* Noise15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise15.jpg; sourceTree = "<group>"; };
+		8727CD94138558F400E7036B /* Noise16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise16.jpg; sourceTree = "<group>"; };
+		8727CD95138558F400E7036B /* Noise17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise17.jpg; sourceTree = "<group>"; };
+		8727CD96138558F400E7036B /* Noise19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise19.jpg; sourceTree = "<group>"; };
+		8727CD97138558F400E7036B /* Noise20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise20.jpg; sourceTree = "<group>"; };
+		8727CD98138558F400E7036B /* Noise21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise21.jpg; sourceTree = "<group>"; };
+		8727CD99138558F400E7036B /* Noise22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noise22.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8727CD59138555E400E7036B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8727CD61138555E400E7036B /* UIKit.framework in Frameworks */,
+				8727CD63138555E400E7036B /* Foundation.framework in Frameworks */,
+				8727CD65138555E400E7036B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8727CD51138555E400E7036B = {
+			isa = PBXGroup;
+			children = (
+				8727CD66138555E400E7036B /* LoopAnimation */,
+				8727CD5F138555E400E7036B /* Frameworks */,
+				8727CD5D138555E400E7036B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8727CD5D138555E400E7036B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8727CD5C138555E400E7036B /* LoopAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8727CD5F138555E400E7036B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8727CD60138555E400E7036B /* UIKit.framework */,
+				8727CD62138555E400E7036B /* Foundation.framework */,
+				8727CD64138555E400E7036B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8727CD66138555E400E7036B /* LoopAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8727CD841385565A00E7036B /* Resources */,
+				8727CD6F138555E400E7036B /* LoopAnimationAppDelegate.h */,
+				8727CD70138555E400E7036B /* LoopAnimationAppDelegate.m */,
+				8727CD72138555E400E7036B /* MainWindow.xib */,
+				8727CD75138555E400E7036B /* LoopAnimationViewController.h */,
+				8727CD76138555E400E7036B /* LoopAnimationViewController.m */,
+				8727CD78138555E400E7036B /* LoopAnimationViewController.xib */,
+				8727CD67138555E400E7036B /* Supporting Files */,
+			);
+			path = LoopAnimation;
+			sourceTree = "<group>";
+		};
+		8727CD67138555E400E7036B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8727CD68138555E400E7036B /* LoopAnimation-Info.plist */,
+				8727CD69138555E400E7036B /* InfoPlist.strings */,
+				8727CD6C138555E400E7036B /* LoopAnimation-Prefix.pch */,
+				8727CD6D138555E400E7036B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8727CD841385565A00E7036B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8727CD86138558F400E7036B /* Noise01.jpg */,
+				8727CD87138558F400E7036B /* Noise02.jpg */,
+				8727CD88138558F400E7036B /* Noise03.jpg */,
+				8727CD89138558F400E7036B /* Noise04.jpg */,
+				8727CD8A138558F400E7036B /* Noise05.jpg */,
+				8727CD8B138558F400E7036B /* Noise06.jpg */,
+				8727CD8C138558F400E7036B /* Noise07.jpg */,
+				8727CD8D138558F400E7036B /* Noise09.jpg */,
+				8727CD8E138558F400E7036B /* Noise10.jpg */,
+				8727CD8F138558F400E7036B /* Noise11.jpg */,
+				8727CD90138558F400E7036B /* Noise12.jpg */,
+				8727CD91138558F400E7036B /* Noise13.jpg */,
+				8727CD92138558F400E7036B /* Noise14.jpg */,
+				8727CD93138558F400E7036B /* Noise15.jpg */,
+				8727CD94138558F400E7036B /* Noise16.jpg */,
+				8727CD95138558F400E7036B /* Noise17.jpg */,
+				8727CD96138558F400E7036B /* Noise19.jpg */,
+				8727CD97138558F400E7036B /* Noise20.jpg */,
+				8727CD98138558F400E7036B /* Noise21.jpg */,
+				8727CD99138558F400E7036B /* Noise22.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8727CD5B138555E400E7036B /* LoopAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8727CD7D138555E400E7036B /* Build configuration list for PBXNativeTarget "LoopAnimation" */;
+			buildPhases = (
+				8727CD58138555E400E7036B /* Sources */,
+				8727CD59138555E400E7036B /* Frameworks */,
+				8727CD5A138555E400E7036B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopAnimation;
+			productName = LoopAnimation;
+			productReference = 8727CD5C138555E400E7036B /* LoopAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8727CD53138555E400E7036B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "いります電算企画";
+			};
+			buildConfigurationList = 8727CD56138555E400E7036B /* Build configuration list for PBXProject "LoopAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8727CD51138555E400E7036B;
+			productRefGroup = 8727CD5D138555E400E7036B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8727CD5B138555E400E7036B /* LoopAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8727CD5A138555E400E7036B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8727CD6B138555E400E7036B /* InfoPlist.strings in Resources */,
+				8727CD74138555E400E7036B /* MainWindow.xib in Resources */,
+				8727CD7A138555E400E7036B /* LoopAnimationViewController.xib in Resources */,
+				8727CD9A138558F400E7036B /* Noise01.jpg in Resources */,
+				8727CD9B138558F400E7036B /* Noise02.jpg in Resources */,
+				8727CD9C138558F400E7036B /* Noise03.jpg in Resources */,
+				8727CD9D138558F400E7036B /* Noise04.jpg in Resources */,
+				8727CD9E138558F400E7036B /* Noise05.jpg in Resources */,
+				8727CD9F138558F400E7036B /* Noise06.jpg in Resources */,
+				8727CDA0138558F400E7036B /* Noise07.jpg in Resources */,
+				8727CDA1138558F400E7036B /* Noise09.jpg in Resources */,
+				8727CDA2138558F400E7036B /* Noise10.jpg in Resources */,
+				8727CDA3138558F400E7036B /* Noise11.jpg in Resources */,
+				8727CDA4138558F400E7036B /* Noise12.jpg in Resources */,
+				8727CDA5138558F400E7036B /* Noise13.jpg in Resources */,
+				8727CDA6138558F400E7036B /* Noise14.jpg in Resources */,
+				8727CDA7138558F400E7036B /* Noise15.jpg in Resources */,
+				8727CDA8138558F400E7036B /* Noise16.jpg in Resources */,
+				8727CDA9138558F400E7036B /* Noise17.jpg in Resources */,
+				8727CDAA138558F400E7036B /* Noise19.jpg in Resources */,
+				8727CDAB138558F400E7036B /* Noise20.jpg in Resources */,
+				8727CDAC138558F400E7036B /* Noise21.jpg in Resources */,
+				8727CDAD138558F400E7036B /* Noise22.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8727CD58138555E400E7036B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8727CD6E138555E400E7036B /* main.m in Sources */,
+				8727CD71138555E400E7036B /* LoopAnimationAppDelegate.m in Sources */,
+				8727CD77138555E400E7036B /* LoopAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8727CD69138555E400E7036B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8727CD6A138555E400E7036B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8727CD72138555E400E7036B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8727CD73138555E400E7036B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8727CD78138555E400E7036B /* LoopAnimationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8727CD79138555E400E7036B /* en */,
+			);
+			name = LoopAnimationViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8727CD7B138555E400E7036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8727CD7C138555E400E7036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8727CD7E138555E400E7036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoopAnimation/LoopAnimation-Prefix.pch";
+				INFOPLIST_FILE = "LoopAnimation/LoopAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8727CD7F138555E400E7036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoopAnimation/LoopAnimation-Prefix.pch";
+				INFOPLIST_FILE = "LoopAnimation/LoopAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8727CD56138555E400E7036B /* Build configuration list for PBXProject "LoopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8727CD7B138555E400E7036B /* Debug */,
+				8727CD7C138555E400E7036B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8727CD7D138555E400E7036B /* Build configuration list for PBXNativeTarget "LoopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8727CD7E138555E400E7036B /* Debug */,
+				8727CD7F138555E400E7036B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8727CD53138555E400E7036B /* Project object */;
+}
