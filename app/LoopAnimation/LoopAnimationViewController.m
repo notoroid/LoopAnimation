@@ -44,33 +44,37 @@
 {
     [super viewDidLoad];
     
-	snowNoiseImageView_.animationImages = [NSArray arrayWithObjects:
-                                          [UIImage imageNamed:@"Noise01.jpg"],
-                                          [UIImage imageNamed:@"Noise02.jpg"],
-                                          [UIImage imageNamed:@"Noise03.jpg"],
-                                          [UIImage imageNamed:@"Noise04.jpg"],
-                                          [UIImage imageNamed:@"Noise05.jpg"],
-                                          [UIImage imageNamed:@"Noise06.jpg"],
-                                          [UIImage imageNamed:@"Noise07.jpg"],
-                                          [UIImage imageNamed:@"Noise08.jpg"],
-                                          [UIImage imageNamed:@"Noise09.jpg"],
-                                          [UIImage imageNamed:@"Noise10.jpg"],
-                                          [UIImage imageNamed:@"Noise11.jpg"],
-                                          [UIImage imageNamed:@"Noise12.jpg"],
-                                          [UIImage imageNamed:@"Noise13.jpg"],
-                                          [UIImage imageNamed:@"Noise14.jpg"],
-                                          [UIImage imageNamed:@"Noise15.jpg"],
-                                          [UIImage imageNamed:@"Noise16.jpg"],
-                                          [UIImage imageNamed:@"Noise17.jpg"],
-                                          [UIImage imageNamed:@"Noise18.jpg"],
-                                          [UIImage imageNamed:@"Noise19.jpg"],
-                                          [UIImage imageNamed:@"Noise20.jpg"],
-                                          [UIImage imageNamed:@"Noise21.jpg"],
-                                          [UIImage imageNamed:@"Noise22.jpg"],
-                                          nil];
-	snowNoiseImageView_.animationDuration = 0.5;
-	[snowNoiseImageView_ stopAnimating];
-    
+    NSAutoreleasePool* autoreleasePool = [[NSAutoreleasePool alloc] init];
+    {
+        snowNoiseImageView_.animationImages = [NSArray arrayWithObjects:
+                                              [UIImage imageNamed:@"Noise01.jpg"],
+                                              [UIImage imageNamed:@"Noise02.jpg"],
+                                              [UIImage imageNamed:@"Noise03.jpg"],
+                                              [UIImage imageNamed:@"Noise04.jpg"],
+                                              [UIImage imageNamed:@"Noise05.jpg"],
+                                              [UIImage imageNamed:@"Noise06.jpg"],
+                                              [UIImage imageNamed:@"Noise07.jpg"],
+                                              [UIImage imageNamed:@"Noise08.jpg"],
+                                              [UIImage imageNamed:@"Noise09.jpg"],
+                                              [UIImage imageNamed:@"Noise10.jpg"],
+                                              [UIImage imageNamed:@"Noise11.jpg"],
+                                              [UIImage imageNamed:@"Noise12.jpg"],
+                                              [UIImage imageNamed:@"Noise13.jpg"],
+                                              [UIImage imageNamed:@"Noise14.jpg"],
+                                              [UIImage imageNamed:@"Noise15.jpg"],
+                                              [UIImage imageNamed:@"Noise16.jpg"],
+                                              [UIImage imageNamed:@"Noise17.jpg"],
+                                              [UIImage imageNamed:@"Noise18.jpg"],
+                                              [UIImage imageNamed:@"Noise19.jpg"],
+                                              [UIImage imageNamed:@"Noise20.jpg"],
+                                              [UIImage imageNamed:@"Noise21.jpg"],
+                                              [UIImage imageNamed:@"Noise22.jpg"],
+                                              nil];
+        snowNoiseImageView_.animationDuration = 0.5;
+        [snowNoiseImageView_ stopAnimating];
+    }
+    [autoreleasePool drain];
+    [autoreleasePool release];
 }
 
 - (void)viewDidUnload
